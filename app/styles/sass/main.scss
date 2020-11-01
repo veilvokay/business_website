@@ -364,6 +364,9 @@ hr {
 // =============
 
 @media only screen and (max-width: 770px) {
+
+    // SECTION-1
+
     #header {
         background-image: none;
     }
@@ -386,5 +389,75 @@ hr {
     #menuBtn {
         width: 40px;
         right: 50px;
+    }
+
+    .common-btn {
+        padding: 10px 16px;
+    }
+
+    .social-icons {
+        img {
+            width: 14px;
+            margin: 15px auto;
+        }
+    }
+
+
+    // SECTION-2 (about)
+
+    .about-left-col, .about-right-col {
+        flex-basis: 100%;
+    }
+
+    .about-text {
+        margin: 50px 50px 0;
+        display: inline-block;
+
+        h2 {
+            font-size: 18px;
+        }
+    }
+
+    
+    // SECTION-3 (features)
+
+    .feature-col {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    
+
+    // SECTION-4 (courses)
+
+    .course-left-col {
+        flex-basis: 100%;
+    }
+
+    .course-right-col {
+        flex-basis: 100%;
+        margin-top: 70px;
+    }
+
+
+    // SECTION-5 (contact)
+
+    .contact-left-col, .contact-right-col {
+        flex-basis: 100%;
+    }
+
+    .contact-right-col {
+        margin-top: 50px;
+    }
+
+
+    // SECTION-6 (footer)
+
+    .footer-left-col, .footer-right-col {
+        flex-basis: 100%;
+    }
+
+    .link-title {
+        flex-basis: 50%;
+        margin-bottom: 50px;
     }
 }
